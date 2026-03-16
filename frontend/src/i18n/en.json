@@ -1,0 +1,103 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "topTraders": "Top Traders",
+    "signals": "Smart Signals",
+    "liquidationMap": "Liquidation Map",
+    "orderbook": "Orderbook Heatmap",
+    "market": "Market Overview",
+    "apiDocs": "API Docs"
+  },
+  "sidebar": {
+    "subtitle": "Smart Money Intelligence"
+  },
+  "common": {
+    "language": "Language",
+    "english": "English",
+    "chinese": "中文",
+    "loading": "Loading...",
+    "noData": "No data available",
+    "refresh": "Refresh",
+    "symbol": "Symbol",
+    "price": "Price",
+    "volume": "Volume",
+    "change24h": "24h Change",
+    "high24h": "24h High",
+    "low24h": "24h Low",
+    "time": "Time",
+    "source": "Source",
+    "viewAll": "View All",
+    "rank": "Rank",
+    "retry": "Retry"
+  },
+  "dashboard": {
+    "title": "Smart Money Intelligence Platform",
+    "subtitle": "Real-time tracking of smart money movements in crypto markets",
+    "marketOverview": "Market Overview",
+    "latestSignals": "Latest Signals",
+    "recentLiquidations": "Recent Liquidations",
+    "topSmartMoney": "Top Smart Money"
+  },
+  "traders": {
+    "title": "Top Trader Rankings",
+    "subtitle": "Traders ranked by composite score (real max drawdown & profit factor)",
+    "wallet": "Wallet Address",
+    "totalPnl": "Total PnL",
+    "winRate": "Win Rate",
+    "tradeCount": "Trade Count",
+    "maxDrawdown": "Max Drawdown",
+    "profitFactor": "Profit Factor",
+    "score": "Score",
+    "smartMoney": "Smart Money",
+    "lastTrade": "Last Trade"
+  },
+  "signals": {
+    "title": "Smart Money Signals",
+    "subtitle": "Triggered when multiple smart money traders open positions in the same direction",
+    "type": "Signal Type",
+    "confidence": "Confidence",
+    "participants": "Participants",
+    "entryPrice": "Entry Price",
+    "totalSize": "Total Size",
+    "long": "LONG",
+    "short": "SHORT",
+    "noSignals": "No signals yet",
+    "noSignalsHint": "Signals will appear when smart money traders act in consensus"
+  },
+  "liquidation": {
+    "title": "Liquidation Map",
+    "subtitle": "Price distribution heatmap of liquidation clusters (1h/4h/24h timeframes)",
+    "longLiq": "Long Liquidation",
+    "shortLiq": "Short Liquidation",
+    "priceLevel": "Price Level",
+    "volume": "Volume (USD)",
+    "recentEvents": "Recent Liquidation Events",
+    "side": "Side",
+    "qty": "Quantity",
+    "usdValue": "USD Value"
+  },
+  "orderbook": {
+    "title": "Orderbook Heatmap",
+    "subtitle": "Bid/Ask depth visualization with whale order detection",
+    "bids": "Bids",
+    "asks": "Asks",
+    "depth": "Cumulative Depth",
+    "depthChart": "Depth Chart",
+    "bidWall": "Bid Wall",
+    "askWall": "Ask Wall",
+    "bidAskRatio": "Bid/Ask Ratio",
+    "buyPressure": "Buy pressure",
+    "sellPressure": "Sell pressure",
+    "totalBids": "Total Bids",
+    "totalAsks": "Total Asks"
+  },
+  "market": {
+    "title": "Market Overview",
+    "subtitle": "Open interest, funding rates & volume analysis",
+    "openInterest": "Open Interest",
+    "fundingRate": "Funding Rate",
+    "longOI": "Long OI",
+    "shortOI": "Short OI",
+    "totalOI": "Total OI"
+  }
+}

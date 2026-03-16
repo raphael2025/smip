@@ -1,0 +1,50 @@
+# 环境与密钥
+.env
+collector/.env
+*.pem
+.env.*
+!.env.example
+!collector/.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+collector/venv/
+.venv/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Node
+node_modules/
+frontend/node_modules/
+.next/
+frontend/.next/
+npm-debug.log*
+yarn-error.log*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 系统与日志
+.DS_Store
+*.log
+collector/*.log
+*.sql.backup
+
+# Docker 本地卷（不忽略 docker-compose 等配置）
+# pgdata/ redisdata/ 若在项目内则取消下一行
+# pgdata/
+
+# 临时与打包
+*.tar.gz
+*.zip
+.cache/

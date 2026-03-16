@@ -1,0 +1,20 @@
+[Unit]
+Description=SMIP Data Collector Service
+After=network-online.target
+Wants=network-online.target
+StartLimitIntervalSec=300
+StartLimitBurst=5
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/smip/collector
+EnvironmentFile=/home/ubuntu/smip/collector/.env
+ExecStart=/home/ubuntu/smip/collector/venv/bin/python3 run_collectors.py
+Restart=always
+RestartSec=10
+TimeoutStopSec=30
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target

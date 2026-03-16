@@ -1,0 +1,103 @@
+{
+  "nav": {
+    "dashboard": "仪表盘",
+    "topTraders": "顶级交易者",
+    "signals": "智能信号",
+    "liquidationMap": "清算地图",
+    "orderbook": "订单簿热力图",
+    "market": "市场概览",
+    "apiDocs": "API 文档"
+  },
+  "sidebar": {
+    "subtitle": "智能资金情报平台"
+  },
+  "common": {
+    "language": "语言",
+    "english": "English",
+    "chinese": "中文",
+    "loading": "加载中...",
+    "noData": "暂无数据",
+    "refresh": "刷新",
+    "symbol": "交易对",
+    "price": "价格",
+    "volume": "成交量",
+    "change24h": "24h涨跌",
+    "high24h": "24h最高",
+    "low24h": "24h最低",
+    "time": "时间",
+    "source": "来源",
+    "viewAll": "查看全部",
+    "rank": "排名",
+    "retry": "重试"
+  },
+  "dashboard": {
+    "title": "智能资金情报平台",
+    "subtitle": "实时追踪加密货币市场智能资金动向",
+    "marketOverview": "市场概览",
+    "latestSignals": "最新信号",
+    "recentLiquidations": "近期清算",
+    "topSmartMoney": "顶级智能资金"
+  },
+  "traders": {
+    "title": "顶级交易者排名",
+    "subtitle": "基于综合评分的交易者排名（含真实最大回撤和盈亏比）",
+    "wallet": "钱包地址",
+    "totalPnl": "总盈亏",
+    "winRate": "胜率",
+    "tradeCount": "交易次数",
+    "maxDrawdown": "最大回撤",
+    "profitFactor": "盈亏比",
+    "score": "综合评分",
+    "smartMoney": "智能资金",
+    "lastTrade": "最近交易"
+  },
+  "signals": {
+    "title": "智能资金信号",
+    "subtitle": "当多个智能资金交易者同方向建仓时触发",
+    "type": "信号类型",
+    "confidence": "置信度",
+    "participants": "参与者",
+    "entryPrice": "入场价",
+    "totalSize": "总仓位",
+    "long": "做多",
+    "short": "做空",
+    "noSignals": "暂无信号",
+    "noSignalsHint": "当智能资金交易者达成共识时，信号将自动生成"
+  },
+  "liquidation": {
+    "title": "清算地图",
+    "subtitle": "潜在清算集群的价格分布热力图（支持1h/4h/24h时间窗口）",
+    "longLiq": "多头清算",
+    "shortLiq": "空头清算",
+    "priceLevel": "价格区间",
+    "volume": "清算量 (USD)",
+    "recentEvents": "近期清算事件",
+    "side": "方向",
+    "qty": "数量",
+    "usdValue": "USD价值"
+  },
+  "orderbook": {
+    "title": "订单簿热力图",
+    "subtitle": "买卖挂单深度可视化（含大额挂单标注）",
+    "bids": "买单",
+    "asks": "卖单",
+    "depth": "累积深度",
+    "depthChart": "深度图",
+    "bidWall": "买单墙",
+    "askWall": "卖单墙",
+    "bidAskRatio": "买卖力量比",
+    "buyPressure": "买方占优",
+    "sellPressure": "卖方占优",
+    "totalBids": "买单总量",
+    "totalAsks": "卖单总量"
+  },
+  "market": {
+    "title": "市场概览",
+    "subtitle": "持仓量、资金费率与成交量综合分析",
+    "openInterest": "持仓量",
+    "fundingRate": "资金费率",
+    "longOI": "多头持仓",
+    "shortOI": "空头持仓",
+    "totalOI": "总持仓量"
+  }
+}
