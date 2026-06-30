@@ -7,11 +7,11 @@ class Settings(BaseSettings):
     DATABASE_PORT: int = 5432
     DATABASE_NAME: str = "smip"
     DATABASE_USER: str = "smip_user"
-    DATABASE_PASSWORD: str = ""
+    DATABASE_PASSWORD: str = ""  # set via env / .env
 
     REDIS_HOST: str = "redis"
     REDIS_PORT: int = 6379
-    REDIS_PASSWORD: str = ""
+    REDIS_PASSWORD: str = ""  # set via env / .env
 
     BINANCE_API_KEY: str = ""
     BINANCE_API_SECRET: str = ""

@@ -74,4 +74,4 @@ docker compose up -d
 
 ## 许可证
 
-Private repository. All rights reserved.
+Licensed under the MIT License (c) 2026 raphael2025. See [LICENSE](LICENSE).
