@@ -41,7 +41,7 @@ app = FastAPI(
 # D5: Tightened CORS - allow specific origin + wildcard without credentials
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://43.128.77.234", "http://localhost:3000"],
+    allow_origins=["http://YOUR_SERVER_HOST", "http://localhost:3000"],
     allow_credentials=False,
     allow_methods=["GET", "OPTIONS"],
     allow_headers=["*"],
